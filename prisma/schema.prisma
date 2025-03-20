@@ -9,14 +9,14 @@ generator client {
 }
 
 datasource db {
-  provider = "mysql"
-  url      = env("DATABASE_URL")
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
 }
 
 model tbl_hotel {
-  id Int @id @default(autoincrement())
-  name String 
-  price Int
-  doingtime DateTime 
-
+  id        Int      @id @default(autoincrement())
+  name      String
+  price     Int
+  doingtime DateTime
 }
