@@ -20,10 +20,10 @@
     "lodash": "^4.17.21",
     "morgan": "^1.10.0",
     "mysql": "^2.18.1",
-    "nodemon": "^3.1.9",
-    "prisma": "^6.5.0"
+    "nodemon": "^3.1.9"
   },
   "devDependencies": {
+    "prisma": "^6.5.0",
     "supabase": "^2.19.7"
   }
 }
